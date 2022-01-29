@@ -1,10 +1,10 @@
-<!-- Created by Elizabeth-->
-
-<!--this is my first js code.so if you have any problem in my code please comment here.-->
+<!-- Edited by mc-mvnchu-->
 <!DOCTYPE html>
 <html>
 <head><title>clock</title>
 <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/segment7" type="text/css"/>
+<!-- CSS Inline Styling -->
+<!-- //////Start////// -->
 <style type="text/css">
 *{
     box-sizing:border-box;
@@ -84,6 +84,7 @@ animation-delay:5s;
 100%{transform:translateY(1000px) rotate(-180deg);}
 }
 </style>
+<!-- /////End///// -->
 </head>
 <body>
 <ul class="sq">
@@ -99,7 +100,8 @@ animation-delay:5s;
 <li></li>
 </ul>
 <div id="clock"></div><span id="e"></span>
-<p id="color"></p>
+<p style="display: none;" id="color"></p>
+<!-- \\\\JS Styling\\\\ -->
 <script type="text/javascript">
 var ap=document.getElementById("e");
 var color=document.getElementById("color");
@@ -146,5 +148,6 @@ document.body.style.backgroundColor=colors;
 }
 setInterval(display,500);
 </script>
+    
 </body>
 </html>
